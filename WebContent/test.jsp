@@ -7,8 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+<font color="red">
 <%
 	out.print("Hello!");
+%>
+</font>
+<br>
+<%
+out.print("<font color='blue'>"+ "한재훈"+ "</font>");
 %>
 
 </body>
